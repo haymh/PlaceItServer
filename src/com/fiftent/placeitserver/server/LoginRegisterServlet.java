@@ -37,7 +37,7 @@ public class LoginRegisterServlet extends HttpServlet{
 				session.setAttribute(Constant.GCM_ID_KEY, regId);
 				if(!RegId.isRegIdExist(username, regId))
 					RegId.createRegId(username, regId);
-				out.print("<html><body>user info is verified</body></html>");
+				resp.sendRedirect("test.html");
 			} else {
 				out.print("<html><body>login failed</body></html>");
 			}

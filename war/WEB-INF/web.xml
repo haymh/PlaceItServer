@@ -52,7 +52,7 @@
 
 	<!-- Default page to serve -->
 	<welcome-file-list>
-		<welcome-file>PlaceItServer.html</welcome-file>
+		<welcome-file>login.html</welcome-file>
 	</welcome-file-list>
 
 </web-app>
